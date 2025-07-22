@@ -70,8 +70,8 @@ import barley_image from "./barley_image.png";
 import home_logo from "./home_logo.png";
 import tomato_image_2 from "./tomato_image_2.png";
 import pepsi_image_2 from "./pepsi_image_2.png";
-
-
+import seller_bg from "./seller_bg.jpg";
+import seller_addproduct from "./seller_addproduct.png";
 
 export const assets = {
   logo,
@@ -99,7 +99,9 @@ export const assets = {
   bottom_banner_image_sm,
   add_address_iamge,
   box_icon,
-  home_logo
+  home_logo,
+  seller_bg,
+  seller_addproduct
 };
 
 export const categories = [

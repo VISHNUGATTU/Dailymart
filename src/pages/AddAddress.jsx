@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 import {assets} from '../assets/assets'
 const InputField=({type,placeholder,name,handleChange,address})=>(
-  <input className='<w-full px-2 py-2.5 border border-gray-500/30 rounded outline-none
-text-gray-500 focus:border-primary transition'
-  type={type}
-  placeholder={placeholder}
-  name={name}
-  onChange={handleChange}
-  value={address[name]}
-  required
-  />
+    <input className='<w-full px-2 py-2.5 border border-gray-500/30 rounded outline-none
+    text-gray-500 focus:border-primary transition'
+      type={type}
+      placeholder={placeholder}
+      name={name}
+      onChange={handleChange}
+      value={address[name]}
+      required
+      />
 )
 
 const AddAddress = () => {
@@ -83,7 +83,6 @@ const AddAddress = () => {
                     <button className='w-full mt-6 bg-primary text-white py-3 hover:bg-primary-dull transition cursor-pointer uppercase'>
                       Save Address
                     </button>
-
               </form>
           </div>
           <img className='md:mr-16 mb-16 md:mt-0' src={assets.add_address_iamge} alt="address" />
